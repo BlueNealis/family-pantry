@@ -1,0 +1,44 @@
+[ {
+    "id": 1,
+    "name": "banana",
+    "categories":["fruit", "snack"],
+    "quantity": 4,
+    "purchase_date": "12/22/25"
+},
+{
+    "id": 2,
+    "name": "blackberries",
+    "categories":["fruit", "snack"],
+    "quantity": "3",
+    "purchase_date": "12/28/25"
+},
+{
+    "id": 3,
+    "name": "salami",
+    "categories":["meat", "deli meat", "snack", "lunch"],
+    "quantity": "1 pack",
+    "purchase_date": "12/28/25"
+},
+{
+    "id": 4,
+    "name": "ham",
+    "categories":["meat","deli meat", "breakfast", "lunch"],
+    "quantity": "6",
+    "purchase_date": "12/28/25"
+},
+{
+    "id": 5,
+    "name": "english muffins",
+    "categories":["bread", "breakfast", "lunch"],
+    "quantity": "6",
+    "purchase_date": "12/28/25"
+},
+{
+    "id": 6,
+    "name": "cheddar cheese block",
+    "categories":["cheese", "snack", "dairy"],
+    "quantity": "1",
+    "purchase_date": "12/24/25"
+}
+
+]
