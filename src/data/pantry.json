@@ -39,6 +39,20 @@
     "categories":["cheese", "snack", "dairy"],
     "quantity": "1",
     "purchase_date": "12/24/25"
+},
+{
+    "id": 7,
+    "name": "ground turkey",
+    "categories":["poultry", "turkey"],
+    "quantity": "1 lb",
+    "purchase_date": "12/28/25"
+},
+{
+    "id": 8,
+    "name": "onion",
+    "categories":["onion", "vegetable"],
+    "quantity": "8",
+    "purchase_date": "12/24/25"
 }
 
 ]
