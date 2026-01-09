@@ -1,4 +1,4 @@
-[ {
+var recipes = [ {
     "id": 23,
     "name": "Turkey Chili Mac",
     "ingredients": [
@@ -45,3 +45,5 @@
     "made_dates":[],
     "categories": []
 }]
+
+export default recipes;

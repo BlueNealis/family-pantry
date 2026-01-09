@@ -1,4 +1,4 @@
-[ {
+var pantryItems = [ {
     "id": 1,
     "name": "banana",
     "categories":["fruit", "snack"],
@@ -56,3 +56,4 @@
 }
 
 ]
+export default pantry;
