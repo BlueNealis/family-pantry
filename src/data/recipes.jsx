@@ -1,6 +1,6 @@
 var recipes = [ {
     "id": 23,
-    "name": "Turkey Chili Mac",
+    "title": "Turkey Chili Mac",
     "ingredients": [
         {"name":"lb ground turkey", "amount": 1, "descriptors": ["turkey", "poultry", "protein"]},
         {"name": "small onion, chopped", "amount": 1, "descriptors": ["onion", "vegetable"]},
@@ -27,7 +27,7 @@ var recipes = [ {
 },
 {
     "id": 24,
-    "name": "",
+    "title": "Caesar Dressing",
     "ingredients": [],
     "steps": [],
     "notes": [],
@@ -37,7 +37,7 @@ var recipes = [ {
 },
 {
     "id": 25,
-    "name": "",
+    "title": "",
     "ingredients": [],
     "steps": [],
     "notes": [],

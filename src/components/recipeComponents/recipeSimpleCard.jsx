@@ -1,7 +1,6 @@
-const recipeSimpleCard = ({ title, categories, id}) => {
+const RecipeSimpleCard = ({ title, categories, id}) => {
     return (
         <div 
-            key={id} 
             id={id} 
             className="card-recipe-simple">
             <h3>
@@ -10,7 +9,8 @@ const recipeSimpleCard = ({ title, categories, id}) => {
             <div>
                 {categories.map((item) => {
                     return(<button 
-                        className="category-pill">{item}</button>)
+                        className="category-pill"
+                        key={`${id}-${item}` }>{item}</button>)
                 })}
             </div>
          </div>
@@ -18,4 +18,4 @@ const recipeSimpleCard = ({ title, categories, id}) => {
 
 }
 
-export default recipeSimpleCard;
+export default RecipeSimpleCard;
