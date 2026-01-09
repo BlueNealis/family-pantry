@@ -1,9 +1,9 @@
-import pantry from 'pantry.json'
-import ItemCard from '../components/pantryComponents';
-const pantry = () => {
+import { pantryItems } from '../../data/pantry.json'
+import ItemCard from '../../components/pantryComponents/ItemCard.jsx';
+export default function Pantry() {
     return(
         <div>
-            {pantry.map((item)=> {
+            {pantryItems.map((item)=> {
                 <ItemCard 
                     id={item.id} 
                     name={item.name}
