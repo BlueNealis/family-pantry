@@ -1,6 +1,9 @@
-const recipeSimpleCard = ({ title, categories}) => {
+const recipeSimpleCard = ({ title, categories, id}) => {
     return (
-        <div className="card-recipe-simple">
+        <div 
+            key={id} 
+            id={id} 
+            className="card-recipe-simple">
             <h3>
                 {title}
             </h3>
