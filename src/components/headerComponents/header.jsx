@@ -3,8 +3,8 @@ const header = () => {
         <header>
             <h1>Family Kitchen</h1>
             <div>
-                <a href="">Pantry</a>
-                <a href="">Cookbook</a>
+                <a href="/pantry">Pantry</a>
+                <a href="/cookbook">Cookbook</a>
             </div>
         </header>
     )
